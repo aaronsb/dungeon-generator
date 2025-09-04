@@ -1,0 +1,189 @@
+{
+  "prizes": {
+    "participation": {
+      "description": "All teams receive:",
+      "items": [
+        {
+          "name": "Legends of the Hidden Temple T-Shirt",
+          "sponsor": "Nickelodeon",
+          "value": "$15",
+          "description": "An official Orange Legends of the Hidden Temple T-shirt to remember your adventure!"
+        },
+        {
+          "name": "Nestle Crunch Bars",
+          "sponsor": "Nestle",
+          "value": "$10",
+          "description": "A case of delicious Nestle Crunch candy bars!"
+        }
+      ]
+    },
+    "moat_crossing": {
+      "description": "Teams who cross the moat also receive:",
+      "items": [
+        {
+          "name": "Moon Shoes",
+          "sponsor": "Big Time Toys",
+          "value": "$30",
+          "description": "Anti-gravity shoes that let you bounce to the moon and back!"
+        },
+        {
+          "name": "Pogs Championship Set",
+          "sponsor": "World Pog Federation",
+          "value": "$25",
+          "description": "Official tournament Pogs with 2 exclusive slammers!"
+        }
+      ]
+    },
+    "steps_of_knowledge": {
+      "description": "Teams reaching the Steps of Knowledge add:",
+      "items": [
+        {
+          "name": "British Knights Sneakers",
+          "sponsor": "British Knights",
+          "value": "$60",
+          "description": "Cool B.K. high-tops in your choice of rad colors!"
+        },
+        {
+          "name": "Tiger Electronics Talkboy",
+          "sponsor": "Tiger Electronics",
+          "value": "$40",
+          "description": "The voice recorder from Home Alone 2! Hi kids, we're home early!"
+        }
+      ]
+    },
+    "temple_games": {
+      "description": "Temple Games prizes (per Pendant of Life earned):",
+      "half_pendant": [
+        {
+          "name": "Skechers 4-Wheelers",
+          "sponsor": "Skechers",
+          "value": "$50",
+          "description": "Shoes with wheels that pop out - it's shoes! It's skates!"
+        }
+      ],
+      "full_pendant": [
+        {
+          "name": "Huffy Mountain Bike",
+          "sponsor": "Huffy",
+          "value": "$150",
+          "description": "18-speed Huffy mountain bike with radical neon paint job!"
+        },
+        {
+          "name": "Sega Game Gear",
+          "sponsor": "Sega",
+          "value": "$120",
+          "description": "Portable gaming system with full-color backlit screen!"
+        }
+      ],
+      "pendant_and_half": [
+        {
+          "name": "Sony Discman D-121",
+          "sponsor": "Sony",
+          "value": "$90",
+          "description": "Portable CD player with mega bass and anti-skip protection!"
+        },
+        {
+          "name": "Razor Scooter",
+          "sponsor": "Razor USA",
+          "value": "$80",
+          "description": "The original aluminum folding scooter that started the craze!"
+        }
+      ]
+    },
+    "temple_run": {
+      "description": "Temple Run milestone prizes:",
+      "reached_temple": [
+        {
+          "name": "Encyclopaedia Britannica CD-ROM",
+          "sponsor": "Britannica",
+          "value": "$100",
+          "description": "The entire encyclopedia on one multimedia CD-ROM!"
+        }
+      ],
+      "five_rooms": [
+        {
+          "name": "Nintendo 64 Game Bundle",
+          "sponsor": "Nintendo",
+          "value": "$120",
+          "description": "GoldenEye 007, Mario Kart 64, and Star Fox 64!"
+        }
+      ],
+      "grabbed_artifact": [
+        {
+          "name": "Gateway 2000 Computer System",
+          "sponsor": "Gateway",
+          "value": "$800",
+          "description": "Pentium processor, 16MB RAM, 2GB hard drive, and Windows 95!"
+        }
+      ],
+      "temple_completion": {
+        "description": "GRAND PRIZE for escaping with the artifact:",
+        "grand_prizes": [
+          {
+            "name": "Trip to SPACE CAMP!",
+            "sponsor": "U.S. Space Camp",
+            "value": "$2000",
+            "description": "A week at Space Camp in Huntsville, Alabama! Train like an astronaut with shuttle simulators, moon gravity chairs, and multi-axis trainers!",
+            "includes": [
+              "Round-trip airfare for winner and parent",
+              "5 nights accommodation",
+              "All meals and training materials",
+              "Official flight suit",
+              "Graduation certificate"
+            ]
+          },
+          {
+            "name": "Toys\"R\"Us Shopping Spree",
+            "sponsor": "Toys\"R\"Us",
+            "value": "$500",
+            "description": "Five minutes to grab anything you want at Toys\"R\"Us!"
+          },
+          {
+            "name": "Nickelodeon Super Soaker Arsenal",
+            "sponsor": "Larami Corporation",
+            "value": "$200",
+            "description": "Every Super Soaker model including the CPS 2000!"
+          }
+        ]
+      }
+    },
+    "consolation_prizes": {
+      "description": "Additional prizes for specific achievements:",
+      "no_temple_guards_met": {
+        "name": "Casio G-Shock Watch",
+        "sponsor": "Casio",
+        "value": "$75",
+        "description": "Indestructible sports watch with 10 alarms!"
+      },
+      "speed_bonus_under_60_seconds": {
+        "name": "Rollerblade Inline Skates",
+        "sponsor": "Rollerblade",
+        "value": "$120",
+        "description": "Professional inline skates with ABEC-5 bearings!"
+      },
+      "all_rooms_visited": {
+        "name": "Complete Power Rangers Collection",
+        "sponsor": "Bandai",
+        "value": "$150",
+        "description": "All five original Power Rangers Megazords!"
+      }
+    },
+    "sponsor_announcements": [
+      "Legends of the Hidden Temple prizes provided by:",
+      "British Knights - Shoes of Champions!",
+      "Huffy - America rides on Huffy!",
+      "Nestle Crunch - For the kid in you!",
+      "Gateway 2000 - You've got a friend in the business!",
+      "Toys\"R\"Us - I don't wanna grow up!",
+      "U.S. Space Camp - Feel the power, live the dream!",
+      "Nickelodeon - The only network for you!"
+    ],
+    "prize_copy_phrases": [
+      "Tell them what they've won, Kirk!",
+      "Going home with some great prizes!",
+      "All that and more!",
+      "It's yours to take home!",
+      "Congratulations to our champions!"
+    ]
+  }
+}

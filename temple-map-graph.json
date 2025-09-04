@@ -1,0 +1,406 @@
+{
+  "temple_name": "The Temple of the Jade Serpent",
+  "artifact": "The Jade Serpent's Crown",
+  "time_limit": 180,
+  "temple_guards": 3,
+  "rooms": {
+    "entrance": {
+      "name": "The Cave Entrance",
+      "description": "The temple gates where all journeys begin",
+      "actions": [
+        "Run up the stairs",
+        "Crawl through the lower tunnel"
+      ],
+      "connections": {
+        "stairs": "crypt",
+        "tunnel": "spider_lair"
+      },
+      "image_file": "temple_room_entrance.png"
+    },
+    "crypt": {
+      "name": "The Crypt of the Stone Monkey",
+      "description": "Ancient burial chamber with mysterious books",
+      "actions": [
+        "Grab the book from the skeleton",
+        "Pull the correct skull",
+        "Find the hidden key in the coffin"
+      ],
+      "temple_guard_possible": true,
+      "connections": {
+        "book": "pit_of_despair",
+        "skull": "observatory",
+        "coffin": "throne_room",
+        "back": "entrance"
+      },
+      "image_file": "temple_room_crypt.png"
+    },
+    "spider_lair": {
+      "name": "The Spider's Lair",
+      "description": "Webbed chamber filled with giant spider eggs",
+      "actions": [
+        "Hit three spider eggs in order",
+        "Pull the golden web strand",
+        "Grab the spider key from the mother spider"
+      ],
+      "temple_guard_possible": false,
+      "connections": {
+        "eggs": "viper_pit",
+        "web": "quicksand_bog",
+        "spider_key": "dark_forest"
+      },
+      "image_file": "temple_room_spider_lair.png"
+    },
+    "pit_of_despair": {
+      "name": "The Pit of Despair",
+      "description": "A deep pit with swinging ropes",
+      "actions": [
+        "Knock over the column",
+        "Swing across on the rope",
+        "Climb down the ladder"
+      ],
+      "connections": {
+        "column": "throne_room",
+        "rope": "chamber_of_elements",
+        "ladder": "mine_shaft"
+      },
+      "image_file": "temple_room_pit_of_despair.png"
+    },
+    "throne_room": {
+      "name": "The Throne Room of the Pretender King",
+      "description": "Golden throne that controls hidden doors",
+      "actions": [
+        "Sit on the throne",
+        "Pull both arm levers simultaneously",
+        "Place the crown on the skeleton king"
+      ],
+      "temple_guard_possible": true,
+      "connections": {
+        "throne": "swamp",
+        "levers": "shrine_silver_monkey",
+        "crown": "heart_chamber",
+        "back": "crypt"
+      },
+      "image_file": "temple_room_throne_room.png"
+    },
+    "observatory": {
+      "name": "The Observatory of Sacred Stars",
+      "description": "Ancient astronomical chamber",
+      "actions": [
+        "Spin the celestial wheel",
+        "Align three planets",
+        "Pull the sun lever"
+      ],
+      "connections": {
+        "wheel": "heart_chamber",
+        "planets": "room_of_gargoyles",
+        "sun": "lightning_room"
+      },
+      "image_file": "temple_room_observatory.png"
+    },
+    "swamp": {
+      "name": "The Swamp of Living Trees",
+      "description": "Murky waters hide ancient keys",
+      "actions": [
+        "Reach into murky water for key",
+        "Pull the vine curtain",
+        "Step on the right lily pad sequence"
+      ],
+      "temple_spirit": true,
+      "connections": {
+        "water_key": "dark_forest",
+        "vine": "snake_pit",
+        "lily_pads": "waterfall_chamber"
+      },
+      "image_file": "temple_room_swamp.png"
+    },
+    "dark_forest": {
+      "name": "The Dark Forest",
+      "description": "Trees that may contain spirits or keys",
+      "actions": [
+        "Reach into the golden tree",
+        "Reach into the silver tree",
+        "Reach into the black tree"
+      ],
+      "temple_guard_possible": true,
+      "connections": {
+        "golden_tree": "shrine_silver_monkey",
+        "silver_tree": "chamber_of_elements",
+        "black_tree": "tomb_headless_kings"
+      },
+      "image_file": "temple_room_dark_forest.png"
+    },
+    "shrine_silver_monkey": {
+      "name": "The Shrine of the Silver Monkey",
+      "description": "The famous three-piece monkey puzzle",
+      "actions": [
+        "Assemble the silver monkey statue",
+        "Press the monkey's eyes",
+        "Turn the base pedestal"
+      ],
+      "connections": {
+        "statue": "mine_shaft",
+        "eyes": "jesters_court",
+        "pedestal": "quicksand_bog"
+      },
+      "image_file": "temple_room_shrine_silver_monkey.png"
+    },
+    "mine_shaft": {
+      "name": "The Mine Shaft",
+      "description": "Vertical chamber with an ancient elevator",
+      "actions": [
+        "Ride the elevator down",
+        "Climb the rope ladder",
+        "Break through the wooden barrier"
+      ],
+      "connections": {
+        "elevator_down": "chamber_of_elements",
+        "rope_up": "pit_of_despair",
+        "barrier": "crystal_cavern"
+      },
+      "image_file": "temple_room_mine_shaft.png"
+    },
+    "chamber_of_elements": {
+      "name": "The Chamber of Four Elements",
+      "description": "Elemental puzzles guard the passages",
+      "actions": [
+        "Place torch in fire holder",
+        "Pour water in basin",
+        "Move earth stones",
+        "Blow into wind chimes"
+      ],
+      "connections": {
+        "fire": "quicksand_bog",
+        "water": "waterfall_chamber",
+        "earth": "tomb_headless_kings",
+        "wind": "room_of_gargoyles"
+      },
+      "image_file": "temple_room_chamber_of_elements.png"
+    },
+    "quicksand_bog": {
+      "name": "The Quicksand Bog",
+      "description": "Treacherous sinking sands",
+      "actions": [
+        "Crawl across carefully",
+        "Pull yourself on overhead rope",
+        "Use stepping stones"
+      ],
+      "connections": {
+        "crawl": "tomb_headless_kings",
+        "rope": "viper_pit",
+        "stones": "treasure_room"
+      },
+      "image_file": "temple_room_quicksand_bog.png"
+    },
+    "tomb_headless_kings": {
+      "name": "The Tomb of the Headless Kings",
+      "description": "Royal tomb with lever puzzles",
+      "actions": [
+        "Pull the right lever to release bones",
+        "Open the sarcophagus",
+        "Replace the missing head"
+      ],
+      "temple_guard_possible": true,
+      "connections": {
+        "lever": "observatory",
+        "sarcophagus": "heart_chamber",
+        "head": "hall_of_mirrors"
+      },
+      "image_file": "temple_room_tomb_headless_kings.png"
+    },
+    "viper_pit": {
+      "name": "The Viper's Pit",
+      "description": "Snake-filled chamber with hidden keys",
+      "actions": [
+        "Reach into snake pots for keys",
+        "Grab the golden viper",
+        "Play the snake charmer's flute"
+      ],
+      "rubber_snakes": true,
+      "connections": {
+        "pots": "snake_pit",
+        "golden_viper": "treasure_room",
+        "flute": "music_chamber"
+      },
+      "image_file": "temple_room_viper_pit.png"
+    },
+    "jesters_court": {
+      "name": "The Jester's Court",
+      "description": "Wall paintings that test your size",
+      "actions": [
+        "Press against the wall painting",
+        "Hit the three bells in sequence",
+        "Do the jester dance on the tiles"
+      ],
+      "connections": {
+        "wall": "heart_chamber",
+        "bells": "music_chamber",
+        "dance": "hall_of_mirrors"
+      },
+      "image_file": "temple_room_jesters_court.png"
+    },
+    "room_of_gargoyles": {
+      "name": "The Room of the Three Gargoyles",
+      "description": "Stone guardians with hidden switches",
+      "actions": [
+        "Push correct gargoyle tongue",
+        "Turn all three heads left",
+        "Place gems in gargoyle eyes"
+      ],
+      "connections": {
+        "tongue": "lightning_room",
+        "heads": "crystal_cavern",
+        "gems": "treasure_room"
+      },
+      "image_file": "temple_room_room_of_gargoyles.png"
+    },
+    "waterfall_chamber": {
+      "name": "The Chamber of the Sacred Waterfall",
+      "description": "Hidden passage behind rushing water",
+      "actions": [
+        "Walk through waterfall",
+        "Turn the water wheel",
+        "Climb the wet rock wall"
+      ],
+      "connections": {
+        "waterfall": "crystal_cavern",
+        "wheel": "snake_pit",
+        "wall": "heart_chamber"
+      },
+      "image_file": "temple_room_waterfall_chamber.png"
+    },
+    "snake_pit": {
+      "name": "The Pit of Venomous Snakes",
+      "description": "Serpentine maze with the Snake King",
+      "actions": [
+        "Navigate the snake maze",
+        "Grab the key from Snake King's mouth",
+        "Ring the serpent bells"
+      ],
+      "temple_guard_possible": true,
+      "connections": {
+        "maze": "music_chamber",
+        "snake_king": "heart_chamber",
+        "bells": "treasure_room"
+      },
+      "image_file": "temple_room_snake_pit.png"
+    },
+    "crystal_cavern": {
+      "name": "The Crystal Cavern",
+      "description": "Glowing crystals illuminate hidden paths",
+      "actions": [
+        "Arrange crystals to reflect light",
+        "Break the purple crystal",
+        "Sing the note to shatter glass"
+      ],
+      "connections": {
+        "light_path": "hall_of_mirrors",
+        "purple": "lightning_room",
+        "shatter": "heart_chamber"
+      },
+      "image_file": "temple_room_crystal_cavern.png"
+    },
+    "lightning_room": {
+      "name": "The Lightning Room",
+      "description": "Chamber of Zeus's stolen thunderbolts",
+      "actions": [
+        "Connect the metal rods",
+        "Stand on the conductor plate",
+        "Catch a lightning bolt"
+      ],
+      "connections": {
+        "rods": "treasure_room",
+        "plate": "heart_chamber",
+        "bolt": "hall_of_mirrors"
+      },
+      "image_file": "temple_room_lightning_room.png"
+    },
+    "music_chamber": {
+      "name": "The Chamber of Ancient Melodies",
+      "description": "Musical puzzles unlock the way",
+      "actions": [
+        "Play the drums in sequence",
+        "Strike the giant gong",
+        "Play the bone xylophone"
+      ],
+      "connections": {
+        "drums": "hall_of_mirrors",
+        "gong": "heart_chamber",
+        "xylophone": "treasure_room"
+      },
+      "image_file": "temple_room_music_chamber.png"
+    },
+    "hall_of_mirrors": {
+      "name": "The Hall of Mirrors",
+      "description": "Reflections hide the true path",
+      "actions": [
+        "Break the cursed mirror",
+        "Align mirrors to show the door",
+        "Walk backwards through mirrors"
+      ],
+      "temple_guard_possible": false,
+      "connections": {
+        "cursed": "treasure_room",
+        "align": "heart_chamber",
+        "backwards": "jesters_court"
+      },
+      "image_file": "temple_room_hall_of_mirrors.png"
+    },
+    "treasure_room": {
+      "name": "The Treasure Room of the Ancients",
+      "description": "False treasures and one true prize",
+      "actions": [
+        "Open the golden chest",
+        "Pull treasures from ceiling net",
+        "Dig in the coin pile"
+      ],
+      "connections": {
+        "chest": "heart_chamber",
+        "net": "quicksand_bog",
+        "coins": "viper_pit"
+      },
+      "image_file": "temple_room_treasure_room.png"
+    },
+    "heart_chamber": {
+      "name": "The Heart of the Temple",
+      "description": "The inner sanctum where the crown awaits",
+      "artifact_location": true,
+      "actions": [
+        "Grab the Jade Serpent's Crown!",
+        "Pull the emergency exit lever",
+        "Activate the secret shortcut"
+      ],
+      "connections": {
+        "crown_escape_1": "throne_room",
+        "crown_escape_2": "observatory",
+        "emergency": "entrance",
+        "shortcut": "jesters_court"
+      },
+      "image_file": "temple_room_heart_chamber.png"
+    }
+  },
+  "special_features": {
+    "temple_guards": {
+      "total": 3,
+      "behavior": "Hide in designated rooms, capture players without Pendant of Life"
+    },
+    "hidden_passages": {
+      "description": "Some doors only open after specific combinations"
+    },
+    "shortcuts": {
+      "description": "Completing certain puzzles may open unexpected faster routes"
+    },
+    "red_herrings": {
+      "fake_artifacts": [
+        "The Crystal Skull",
+        "The Golden Mask",
+        "The Ruby Scarab"
+      ],
+      "description": "Decoy treasures that waste time"
+    }
+  },
+  "difficulty_modifiers": {
+    "locked_doors": "Some passages may be permanently sealed",
+    "darkness": "Certain rooms require feeling in the dark",
+    "time_penalties": "Wrong choices cost 15 seconds"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "entrance": {
+    "room_name": "The Cave Entrance",
+    "image_filename": "temple_room_entrance.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, The temple gates where all journeys begin, The Cave Entrance room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Cave Entrance, The temple gates where all journeys begin",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "crypt": {
+    "room_name": "The Crypt of the Stone Monkey",
+    "image_filename": "temple_room_crypt.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, ancient skeletons, bones, skulls on shelves, The Crypt of the Stone Monkey room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Crypt of the Stone Monkey, ancient skeletons, bones, skulls on shelves",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "spider_lair": {
+    "room_name": "The Spider's Lair",
+    "image_filename": "temple_room_spider_lair.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, giant spider webs, egg sacs, creepy crawlies, The Spider's Lair room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Spider's Lair, giant spider webs, egg sacs, creepy crawlies",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "pit_of_despair": {
+    "room_name": "The Pit of Despair",
+    "image_filename": "temple_room_pit_of_despair.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, deep pit, rope bridges, vertical chamber, The Pit of Despair room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Pit of Despair, deep pit, rope bridges, vertical chamber",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "throne_room": {
+    "room_name": "The Throne Room of the Pretender King",
+    "image_filename": "temple_room_throne_room.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, golden throne, royal chamber, ornate decorations, The Throne Room of the Pretender King room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Throne Room of the Pretender King, golden throne, royal chamber, ornate decorations",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "observatory": {
+    "room_name": "The Observatory of Sacred Stars",
+    "image_filename": "temple_room_observatory.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, celestial wheel, planets, stars on ceiling, astronomical devices, The Observatory of Sacred Stars room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Observatory of Sacred Stars, celestial wheel, planets, stars on ceiling, astronomical devices",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "swamp": {
+    "room_name": "The Swamp of Living Trees",
+    "image_filename": "temple_room_swamp.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, murky water, fog, hanging vines, moss, The Swamp of Living Trees room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Swamp of Living Trees, murky water, fog, hanging vines, moss",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "dark_forest": {
+    "room_name": "The Dark Forest",
+    "image_filename": "temple_room_dark_forest.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, artificial trees, dark foliage, hidden passages, The Dark Forest room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Dark Forest, artificial trees, dark foliage, hidden passages",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "shrine_silver_monkey": {
+    "room_name": "The Shrine of the Silver Monkey",
+    "image_filename": "temple_room_shrine_silver_monkey.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, pedestal with three piece silver monkey statue puzzle, The Shrine of the Silver Monkey room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Shrine of the Silver Monkey, pedestal with three piece silver monkey statue puzzle",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "mine_shaft": {
+    "room_name": "The Mine Shaft",
+    "image_filename": "temple_room_mine_shaft.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, mining elevator, wooden supports, vertical shaft, chains, The Mine Shaft room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Mine Shaft, mining elevator, wooden supports, vertical shaft, chains",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "chamber_of_elements": {
+    "room_name": "The Chamber of Four Elements",
+    "image_filename": "temple_room_chamber_of_elements.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, four element symbols, fire water earth air, mystical circles, The Chamber of Four Elements room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Chamber of Four Elements, four element symbols, fire water earth air, mystical circles",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "quicksand_bog": {
+    "room_name": "The Quicksand Bog",
+    "image_filename": "temple_room_quicksand_bog.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, sand pit, sinking hazard, overhead rope, The Quicksand Bog room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Quicksand Bog, sand pit, sinking hazard, overhead rope",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "tomb_headless_kings": {
+    "room_name": "The Tomb of the Headless Kings",
+    "image_filename": "temple_room_tomb_headless_kings.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, sarcophagus, egyptian style decorations, burial chamber, The Tomb of the Headless Kings room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Tomb of the Headless Kings, sarcophagus, egyptian style decorations, burial chamber",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "viper_pit": {
+    "room_name": "The Viper's Pit",
+    "image_filename": "temple_room_viper_pit.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, deep pit, rope bridges, vertical chamber, ceramic pots, rubber snakes, snake decorations, The Viper's Pit room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Viper's Pit, deep pit, rope bridges, vertical chamber, ceramic pots, rubber snakes, snake decorations",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "jesters_court": {
+    "room_name": "The Jester's Court",
+    "image_filename": "temple_room_jesters_court.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, court jester paintings, colorful medieval decorations, bells, The Jester's Court room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Jester's Court, court jester paintings, colorful medieval decorations, bells",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "room_of_gargoyles": {
+    "room_name": "The Room of the Three Gargoyles",
+    "image_filename": "temple_room_room_of_gargoyles.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, three stone gargoyles, grotesque faces, moveable tongues, The Room of the Three Gargoyles room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Room of the Three Gargoyles, three stone gargoyles, grotesque faces, moveable tongues",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "waterfall_chamber": {
+    "room_name": "The Chamber of the Sacred Waterfall",
+    "image_filename": "temple_room_waterfall_chamber.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, rushing waterfall, wet rocks, hidden passage behind water, The Chamber of the Sacred Waterfall room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Chamber of the Sacred Waterfall, rushing waterfall, wet rocks, hidden passage behind water",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "snake_pit": {
+    "room_name": "The Pit of Venomous Snakes",
+    "image_filename": "temple_room_snake_pit.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, deep pit, rope bridges, vertical chamber, ceramic pots, rubber snakes, snake decorations, The Pit of Venomous Snakes room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Pit of Venomous Snakes, deep pit, rope bridges, vertical chamber, ceramic pots, rubber snakes, snake decorations",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "crystal_cavern": {
+    "room_name": "The Crystal Cavern",
+    "image_filename": "temple_room_crystal_cavern.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, glowing crystals, purple and blue lights, mystical cave, The Crystal Cavern room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Crystal Cavern, glowing crystals, purple and blue lights, mystical cave",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "lightning_room": {
+    "room_name": "The Lightning Room",
+    "image_filename": "temple_room_lightning_room.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, tesla coils, electrical effects, metal rods, sparks, The Lightning Room room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Lightning Room, tesla coils, electrical effects, metal rods, sparks",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "music_chamber": {
+    "room_name": "The Chamber of Ancient Melodies",
+    "image_filename": "temple_room_music_chamber.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, Musical puzzles unlock the way, The Chamber of Ancient Melodies room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Chamber of Ancient Melodies, Musical puzzles unlock the way",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "hall_of_mirrors": {
+    "room_name": "The Hall of Mirrors",
+    "image_filename": "temple_room_hall_of_mirrors.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, wall of mirrors, reflections, optical illusions, The Hall of Mirrors room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Hall of Mirrors, wall of mirrors, reflections, optical illusions",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "treasure_room": {
+    "room_name": "The Treasure Room of the Ancients",
+    "image_filename": "temple_room_treasure_room.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, gold coins, treasure chests, jewels, ancient artifacts, The Treasure Room of the Ancients room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Treasure Room of the Ancients, gold coins, treasure chests, jewels, ancient artifacts",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  },
+  "heart_chamber": {
+    "room_name": "The Heart of the Temple",
+    "image_filename": "temple_room_heart_chamber.png",
+    "positive_prompt": "legends of the hidden temple TV show set, nickelodeon 1990s, ancient mayan aztec temple room, stone walls with hieroglyphs, dramatic torch lighting, mysterious atmosphere, game show set design, practical effects, sacred altar, jade serpent crown on pedestal, golden light, inner sanctum, The Heart of the Temple room",
+    "negative_prompt": "modern, contemporary, bright lighting, clean, text, people, contestants, cameras, crew, watermark, low quality, blurry, deformed",
+    "short_prompt": "Legends of Hidden Temple room: The Heart of the Temple, sacred altar, jade serpent crown on pedestal, golden light, inner sanctum",
+    "settings_suggestion": {
+      "steps": 30,
+      "cfg_scale": 7.5,
+      "size": "768x512",
+      "sampler": "DPM++ 2M Karras"
+    }
+  }
+}
