@@ -231,7 +231,7 @@ def main():
     print("  • Use negative prompts to avoid modern elements")
     print("  • Recommended size: 768x512 pixels")
     print("  • Best model: Stable Diffusion 1.5")
-    print("  • Avoid 3D/Hunyuan models (they produce gray boxes)")
+    print("  • CFG Scale: 7.5, Steps: 30")
     
     print("\n" + "="*60)
 
