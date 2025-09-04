@@ -37,8 +37,8 @@ Race through Olmec's temple with only **3 minutes** on the clock! Navigate 24 in
 ### Play the Game
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd maze
+git clone https://github.com/aaronsb/dungeon-generator.git
+cd dungeon-generator
 
 # Run the game
 python3 temple_runner.py
